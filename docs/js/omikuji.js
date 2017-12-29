@@ -28,5 +28,5 @@ const omikuji = () =>{
         document.querySelector("#result").style.backgroundColor = "rec";
 
     }
-    document.getElementById("image").src="./images/eto_inu_shinnen_aisatsu.png";
+    document.getElementById("image").style.visibility = "visible";
 }

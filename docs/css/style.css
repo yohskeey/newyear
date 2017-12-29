@@ -27,3 +27,6 @@ body{
     cursor: pointer;
     font-size:50px;
 }
+#image{
+    visibility: hidden;
+}
