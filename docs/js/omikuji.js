@@ -25,7 +25,7 @@ const omikuji = () =>{
 
     }else if(num>=98){
         resElem.innerHTML = "豊臣秀吉";
-        resElem.style.backgroundColor = "rec";
+        resElem.style.backgroundColor = "red";
 
     }
     document.getElementById("image").style.visibility = "visible";
