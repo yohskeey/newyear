@@ -19,12 +19,12 @@ const omikuji = () =>{
         resElem.innerHTML = "吉";
         resElem.style.backgroundColor = "lightblue";
 
-    }else if(num>=81 && num<=99){
+    }else if(num>=81 && num<=97){
         resElem.innerHTML = "末吉";
         resElem.style.backgroundColor = "lightgreen";
 
-    }else if(num==100){
-        resElem.innerHTML = "凶";
+    }else if(num>=98){
+        resElem.innerHTML = "豊臣秀吉";
         resElem.style.backgroundColor = "rec";
 
     }
